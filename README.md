@@ -1,43 +1,10 @@
-# utkarsh-insurance-services
-Professional insurance agency website for Utkarsh Insurance Services, offering personalized life and health insurance guidance.
-# Utkarsh Insurance Services
+# Utkarsh Insurance Services — Netlify-ready
 
-A modern, responsive website for **Utkarsh Insurance Services**, designed to provide clear and personalized insurance guidance for individuals and families.
+This is a static site. Upload this folder to a Netlify site or deploy it from Git.
 
-## About
+## Important form fix
+The enquiry form uses Netlify Forms with a normal HTML POST. Do not run it through an Express/Gmail backend.
 
-Utkarsh Insurance Services is an insurance agency serving customers in and around Bhusawal. The website provides information about available insurance services and allows visitors to submit an enquiry for a quote or appointment.
+After deploying, open Netlify → Forms and confirm that the `insurance-enquiry` form is detected. Enable form notifications there if email alerts are required.
 
-## Features
-
-- Responsive and mobile-friendly design
-- Modern insurance-focused UI
-- About the agency section
-- Life and health insurance services
-- Insurance provider information
-- Simple enquiry/quote form
-- Netlify Forms integration
-- WhatsApp and phone contact options
-- Thank-you page after form submission
-- SEO-friendly HTML structure
-- Favicon and optimized image assets
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript
-- Netlify Forms
-- Netlify Hosting
-
-## Project Structure
-
-```text
-.
-├── index.html
-├── thank-you.html
-├── favicon.png
-├── Logo.jpg
-├── background_image.jpg
-├── vaishali_photo.jpg
-└── README.md
+The old project contained a Gmail app password. It is not included here. Rotate that old credential if it is still active.
